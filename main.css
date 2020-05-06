@@ -1,0 +1,342 @@
+/* Estilos Pagina Web */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(184, 155, 155);
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    color: rgb(255, 255, 255);
+
+}
+
+p {
+    margin-bottom: 1.6rem;
+}
+
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+.image {
+    width: 10%;
+    height: 10%;
+    align-items: normal;
+    margin: 10px 10px 10px 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2.5em;
+}
+
+.header {
+    background: rgba(49, 1, 1, 0.63);
+    color: #DAA54E;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.header a {
+    color: #DAA54E;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.9rem;
+    letter-spacing: 0rem;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 18px;
+}
+
+.navigation ul li a:hover {
+    background: rgba(0, 0, 0, 0.42);
+}
+
+.footer {
+    display: flex;
+    justify-items: end;
+    background: rgba(169, 54, 54, 0.83);
+    color: #DAA54E;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 3rem;  
+}
+
+.footer p {
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+
+/* Estilos Social-Bar */
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: #2e406e;
+}
+
+.icon-youtube {
+    background: #e83028;
+}
+
+.icon-instagram {
+    background: #3f60a5;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+.main {
+    padding-top: 10rem;
+}
+
+
+/* estilos a Inicio */
+
+.content-inicio{
+    max-width: 1000px;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 2fr 1fr;    
+}
+
+.contenido-1{
+    background: rgba(139, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contenido-2{
+    background: rgba(139, 0, 0, 0.7);
+    margin-left: 12px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contenido-3{
+    width: 990px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    background: rgba(139, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+.contenido-3 img{
+    width: 800px;
+    max-width: 100%;
+    margin-top: 25px;
+}
+
+.descrip-foto{
+    width: 800px;
+    
+    margin: auto;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+/* Estilos a Producciones */
+
+.content-product{
+    width: 1000px;
+    margin: auto;
+    padding: 25px 50px;
+    box-sizing: border-box;
+    background: rgba(139, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+/* Estilos del Formulario de Contacto */
+
+.contenido1 {
+    box-sizing: border-box;
+    background: rgba(139, 0, 0, 0.815);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    padding-top: 4em;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 5px;
+}
+
+.contenido1 * {
+    color: blanchedalmond;
+}
+
+.contact-logo {
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 2em;
+}
+
+.contact-logo span{
+    color: black;
+}
+
+.contact-grupo {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.4);
+    margin-top: 2rem;
+}
+
+.contact-grupo > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: rgba(0, 0, 0, 0.42);
+}
+
+.contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block{
+    grid-column: 1 / 3;
+}
+
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid #d63031;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.contact-form form button{
+    background: #b70e21;
+    border: 0;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    padding: 1.5em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #d63031;
+    transition: background-color 0.5s;
+    outline: 0;
+}
+
+.contact-info {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contact-info ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info h4 {
+    font-size: 1.5rem;
+}
+
+.contact-info ul li {
+    padding: 0.2rem;
+}
+
+/* LARGE SCREEN Formulario de contacto */
+
+@media (min-width: 700px) {
+    .contact-grupo {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contact-info ul,
+    .contact-info p {
+        padding: 1rem;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+}

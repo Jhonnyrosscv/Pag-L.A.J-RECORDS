@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenido1 {
+    max-width: 1000px;
+    padding: 5em;
+    background: black;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+
